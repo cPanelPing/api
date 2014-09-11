@@ -24,6 +24,9 @@ $secret = 'YOUR_API_SECRET_GOES_HERE';
 
 /* checks if authorized */
 if (stripos($_SERVER['REQUEST_URI'], "?key=$key?secret=$secret")){
+	
+   /* send 200 ok to browser */
+   header('HTTP/1.0 200 OK');	
 
    /* Ignore user aborts and allow the script to run forever */
    if(function_exists('ignore_user_abort')) {
