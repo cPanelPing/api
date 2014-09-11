@@ -81,7 +81,7 @@ if (stripos($_SERVER['REQUEST_URI'], "?key=$key?secret=$secret")){
    }
 
    /* check ssh */
-   if ($check_sshd !== false) {
+   if ($check_ssh !== false) {
       exec('/etc/init.d/ssh restart');
       echo "/etc/init.d/ssh restart<br>";
    }
