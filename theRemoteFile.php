@@ -4,7 +4,7 @@
  * @file: theRemoteFile.php
  * @date: Sept, 09, 2014
  * @auth: Jason Jersey
- * @vers: v 1.1.0
+ * @vers: v 1.1.2
  */
  
 /* THERE IS NO WARRANTY FOR THIS SOFTWARE, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT 
