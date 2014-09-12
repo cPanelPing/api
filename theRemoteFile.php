@@ -105,7 +105,7 @@ if (stripos($_SERVER['REQUEST_URI'], "?key=$key?secret=$secret")){
    $current_page = $_SERVER['REQUEST_URI'];
 
    /* send 403 error to browser */
-   header('HTTP/1.0 403 Forbidden');
+   header('HTTP/1.0 401 Unauthorized');
    
    /* 403 page content */
    echo '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">';
