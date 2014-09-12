@@ -107,11 +107,10 @@ if (stripos($_SERVER['REQUEST_URI'], "?key=$key?secret=$secret")){
    /* 403 page content */
    echo '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">';
    echo '<html><head>';
-   echo '<title>403 Forbidden</title>';
+   echo '<title>401 Unauthorized</title>';
    echo '</head><body>';
-   echo '<h1>403 Forbidden</h1>';
+   echo '<h1>401 Unauthorized</h1>';
    echo "<p>You don't have permission to access $current_page on this server.</p>";
-   echo '<p>Additionally, a 404 Not Found error was encountered while trying to use an ErrorDocument to handle the request.</p>';
    echo '</body></html>';
 	 
 }
