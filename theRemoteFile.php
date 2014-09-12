@@ -54,7 +54,7 @@ if (stripos($_SERVER['REQUEST_URI'], "?key=$key?secret=$secret")){
    /* send 401 to browser */
    header('HTTP/1.0 401 Unauthorized');
    
-   /* 403 page content */
+   /* 401 page content */
    echo '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">';
    echo '<html><head>';
    echo '<title>401 Unauthorized</title>';
