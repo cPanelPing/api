@@ -14,11 +14,8 @@ Please use at your own risk.
 
 Contents
 ==
-1. compatibility.php
-Checks your system compatibility with theRemoteFile.php
+1. compatibility.php | Checks your system compatibility with theRemoteFile.php
 
-2. theRemoteFile.dev
-A wrapper for developers to write their own commands specific to their own system. Before uploading to your site, rename to theRemoteFile.php
+2. theRemoteFile.dev | A wrapper for developers to write their own commands specific to their own system. Before uploading to your site, rename to theRemoteFile.php
 
-3. theRemoteFile.php 
-The remote restart api file. You may use this if you dont have any of your own commands you'd like us to run instead of ours.
+3. theRemoteFile.php | The remote restart api file. You may use this if you dont have any of your own commands you'd like us to run instead of ours.
